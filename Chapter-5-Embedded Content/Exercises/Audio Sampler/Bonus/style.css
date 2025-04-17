@@ -1,0 +1,63 @@
+/*The body styling*/
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-image: url('https://images.unsplash.com/photo-1563089145-599997674d42?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); 
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /*The heading style*/
+  h1 {
+    margin-top: 15px;
+    font-size: 20px;
+    color:black;
+    background-color: rgb(143, 169, 190);
+    padding: 5px;
+    height: 25px;
+  
+  }
+  /*Soundboard and card styling*/
+  .soundboard {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    padding: 40px;
+    max-width: 1300px;
+  }
+  
+  .card {
+    background: rgb(199, 124, 195);
+    color: black;
+    padding: 20px;
+    border-style: solid;
+    border-radius: 25px;
+    border-width: 6px;
+    cursor: pointer;
+  }
+  
+  
+  .card:hover {
+    background:rgb(119, 13, 119);
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .card .title {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .card .index {
+    font-size: 15px;
+  }
+  
+  .card .duration {
+    font-size: 15px;
+    margin-top: 5px;
+  }
+  
+    

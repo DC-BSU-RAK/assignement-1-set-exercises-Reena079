@@ -1,0 +1,76 @@
+/*Body of the webpage*/
+body{
+    background-color: plum;
+    background-repeat: no-repeat;
+    text-align: left;
+    font-family: serif;
+}
+
+/*Headings of the text*/
+h1{
+    text-align: center;
+    padding: 10px;
+    font-size: 45px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 2px solid  black;
+    background-color: rgb(31, 13, 31);
+    color: white;
+}
+
+h2{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+    margin: 20px;
+}
+
+/*The paragraph */
+p{
+    font-size: 20px;
+    margin: 10px 20px;
+}
+
+/*Ordered and Unordered list*/
+ul{
+    font-size: 20px;
+    line-height: 1.3;
+    text-align: left;
+    margin-left: 12px;
+    padding-left: 0;
+}
+
+ol{
+    line-height: 1.6;
+    font-size: 20px;
+}
+
+ol li {
+    margin-bottom: 10px;
+}
+
+/*Ingredients styling*/
+.ingredients-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+    margin: 20px;
+    
+  }
+
+  .ingredients-section img {
+    object-fit: cover;
+    width: 800px; height: 300px;
+    margin-right: auto;
+    border-style: solid;
+  }
+
+  .ingredients-section ul {
+    max-width: 70%;
+    padding: 0;
+    margin: 4px;
+    list-style-position: inside;
+  }
+

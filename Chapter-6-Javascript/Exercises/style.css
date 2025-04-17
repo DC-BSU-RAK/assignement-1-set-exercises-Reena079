@@ -1,0 +1,102 @@
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1f666b;
+    margin: 4px;
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+/*The header*/
+header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: white;
+  }       
+
+/*The total cost of the amount of petrol purchased*/
+ #total-cost {
+    font-size: 22px;
+    color: black;
+    margin-top: 20px; 
+    text-align: center;
+ }
+
+/*The main page */
+main {
+    margin-top: 20px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 15px;
+    border: solid 1px #ccc;
+    width: 400px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    display: block;
+    margin: 5px;
+}
+
+/*  input fields */
+input {
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    font-size: 15px;
+    width: 100%;
+    max-width: 300px;
+}
+
+input:focus {
+    border-color: #7656a3;
+    outline: black;
+    
+}
+
+/* Styling the buttons */
+button {
+    background-color: #7271c7;
+    color:black;
+    border-style:solid;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    margin: 5px;
+
+}
+
+
+button:hover {
+    background-color: #443a99;
+    color: black;
+    transform: scale(1.05);
+}
+
+/*The paragraph*/
+p {
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/*The footer of the webpage*/
+footer {
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    background-color: #b6d9e7;
+    text-align: center;
+    padding: 3px;
+
+}

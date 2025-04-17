@@ -1,0 +1,89 @@
+
+/*The body styling*/
+body {
+    font-family: "Arial", 400;
+  }
+
+  /*The header styling*/
+  header {
+    background-color: #17072b;
+    font-family:Arial;
+    color: #ffff;
+    text-align: center;
+    padding: 20px ;
+  }
+  header h1 {
+    font-size: 40px;
+    text-decoration: underline;
+  }
+
+/*Nav Bar styling*/
+  nav {
+    background-color: #17072b;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+  }
+  nav a {
+    color: white;
+    margin: 0 20px;
+    font-size: 20px;
+    text-decoration-line: none;
+  }
+  .container {
+    display: flex;
+    padding: 0%;
+    gap: 30px;
+
+/*Main content styling*/
+  }
+  .main-content h2 {
+    font-size: 30px;
+  }
+  .main-content p {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  .main-content img {
+    width: 650px;
+    height: 300px;
+
+    /*The siebar styling*/
+  }
+  .sidebar {
+    background-color: #172d67;
+    color: #ffff;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .sidebar h2 {
+    font-size:30px ;
+    
+  }
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  .sidebar ul li {
+    font-size: 20px;
+  }
+  .sidebar .images {
+    display: flex;
+    gap: 10px;
+  }
+  .sidebar .images img {
+    width: 300px;
+    height: 300px;
+  }
+
+  /*Footer styling*/
+  footer {
+    background-color: #8c15e9;
+    color:#ffff;
+    text-align: center;
+    padding:1px;
+    font-size: 20px;
+  }
+  
+    

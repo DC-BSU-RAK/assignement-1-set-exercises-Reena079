@@ -1,0 +1,102 @@
+/*The body of the webpage*/
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #c28638;
+    color: #0b0b0b;
+    font-family: serif;
+    line-height: 1.6;
+  }
+  
+  /*The heading styling*/
+  h1, h2, h3 {
+    font-family: 'Pirata One',serif;
+    color: black;
+    text-align: center;
+    margin-top: 24px;
+    font-size: 30px;
+  }
+  
+  h1 {
+      color: #c28638;
+      font-size: 40px;
+  }
+  
+  h2{
+      color: #c28638;
+      font-size: 30px;
+  }
+  p{
+      font-size: 20px;
+      text-align: center;
+  }
+  
+  header {
+    background-color: #111;
+    padding: 20px;
+    border-bottom: 2px solid #c28638;
+  }
+  
+  /*Navigation Bar styling*/
+  nav.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #1c1c1c;
+    padding: 20px;
+    gap: 30px;
+    
+  }
+  
+  .navbar a {
+    color: #e0c097;
+    padding: 10px;
+    font-weight: bold;
+  }
+  
+  .navbar a:hover {
+    background-color: #f7d184;
+    color: #0b0b0b;
+    border-radius: 5px;
+  }
+  
+  .navbar .btn {
+    background-color: #c76f26;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 8px;
+  }
+  
+  .navbar .btn:hover {
+    background-color: #e69d45;
+    color: #111;
+  }
+  
+  section {
+    padding: 10px;
+    max-width: 800px;
+    margin:auto;
+  }
+
+  /*List Styling*/
+  ul, ol {
+      padding-left: 0;
+      list-style-position: inside;
+      font-size: 20px;
+      text-align: center;
+    }
+    
+    li {
+      text-align: center;
+    }
+    
+  /*The footer styling*/
+  footer {
+    text-align: center;
+    font-family: serif;
+    padding: 24px;
+    background-color: #111;
+    color: #aaa;
+    margin-top: 48px;
+  }
+  
